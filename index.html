@@ -4,132 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L.U.C.Y</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>
-        <img src="logo.png" height="100px" width="100px" alt="L.U.C.Y Logo">
-        "Loving Unconditional Care for You"
-    </h1>
-    <hr>
+    <header>
+        <h1>
+            <img src="logo.png" height="100px" width="100px" alt="L.U.C.Y Logo">
+            "Loving Unconditional Care for You"
+        </h1>
+    </header>
     <nav>
         <a href="index.html">Home</a> | 
         <a href="service.html">Service</a> | 
         <a href="contact.html">Contact Us</a> | 
-       
         <a href="aboutus.html">About Us</a>
     </nav>
-    <hr>
-    <section id="home">
-        <table>
-            <tr>
-                <td >
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="section" id="section1">
+                    <div class="title">"Every Life Matters, Every Action Counts."</div>
                     <p>
-                        <h2>"Every Life Matters, Every Action Counts."</h2>
-                        <h2>"Because they can't speak, but we can act."</h2>
-                        <h2>"Together, let's build a kinder world."</h2>
+                        At L.U.C.Y, we believe that every animal deserves a chance at a better life. Our mission is to ensure that all animals in Nepal receive the respect, love, and care they deserve.
                     </p>
+                </div>
+                <div class="section" id="section2">
+                    <div class="title">"Because they can't speak, but we can act."</div>
                     <p>
-                        At L.U.C.Y, we believe that every animal deserves a chance at a better life. Our mission is to ensure that all animals in Nepal receive the respect, love, and care they deserve. 
-                        <br><br>
-                        From rescuing strays to providing medical aid and fostering education about animal welfare, we are dedicated to making a lasting impact. 
-                        <br><br>
+                        From rescuing strays to providing medical aid and fostering education about animal welfare, we are dedicated to making a lasting impact.
+                    </p>
+                </div>
+                <div class="section" id="section3">
+                    <div class="title">"Together, let's build a kinder world."</div>
+                    <p>
                         Join us in our journey to create a compassionate world for animals!
                     </p>
-                </td>
-                <td>
-                    <img src="1.jpg" alt="Happy Animals" height="350px" width="550px">
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h2>Our Goals</h2>
-        <ul>
-            <li>Rescuing and rehabilitating stray animals.</li>
-            <li>Promoting animal welfare education across Nepal.</li>
-            <li>Building community-driven shelters and sanctuaries.</li>
-            <li>Ensuring the health and safety of animals through vaccinations and treatment.</li>
-            <li>Creating awareness campaigns to reduce animal abuse.</li>
-        </ul>
-        <hr>
-        <h2>How You Can Help</h2>
-        <p>
-            Every contribution counts! You can support us by:
-        </p>
-        <ul>
-            <li>Volunteering at our centers or events.</li>
-            <li>Donating to help us provide food, shelter, and medical aid.</li>
-            <li>Adopting or fostering animals in need.</li>
-            <li>Spreading the word about our mission and initiatives.</li>
-        </ul>
-        <p>
-            Together, we can create a brighter future for animals in Nepal. Thank you for being a part of our journey!
-        </p>
-    </section>
-    <h2>Share Your Story</h2>
-    <p>
-        Have you had an inspiring experience rescuing or caring for animals? Or do you want to share your adoption journey? 
-        Submit your story here, and it may be featured on our website!
-    </p>
-
-   
-    <form action="/submit-blog" method="post">
-        <label for="name">Your Name:</label>
-        <br>
-        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-        <br><br>
-
-        <label for="email">Your Email:</label>
-        <br>
-        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-        <br><br>
-
-        <label for="blog-title">Blog Title:</label>
-        <br>
-        <input type="text" id="blog-title" name="blog-title" placeholder="Enter a captivating title" required>
-        <br><br>
-
-        <label for="content">Your Story:</label>
-        <br>
-        <textarea id="content" name="content" rows="8" cols="50" placeholder="Share your story here..." required></textarea>
-        <br><br>
-
-        <label for="image">Upload an Image (Optional):</label>
-        <br>
-        <input type="file" id="image" name="image" accept="image/*">
-        <br><br>
-
-        <button type="submit">Submit Your Blog</button>
-    </form>
-
-    <hr>
-
-    
-    <h2>Recent Blogs from Our Community</h2>
-    <p>Read inspiring stories from animal lovers like you!</p>
-    <div>
-        <article>
-            <h3>How I Found My Furry Friend</h3>
+                </div>
+            </div>
+        </section>
+        <section id="how-you-can-help">
+            <h2>How You Can Help</h2>
+            <ul>
+                <li>Volunteering at our centers or events.</li>
+                <li>Donating to help us provide food, shelter, and medical aid.</li>
+                <li>Adopting or fostering animals in need.</li>
+                <li>Spreading the word about our mission and initiatives.</li>
+            </ul>
             <p>
-                "Adopting Lucy was the best decision of my life. Here's how it changed both our lives for the better."
-                <br><br>
-                <a href="community-blog1.html">Read More</a>
+                Together, we can create a brighter future for animals in Nepal. Thank you for being a part of our journey!
             </p>
-        </article>
-        <hr>
+        </section>
+        <section id="share-your-story">
+            <h2>Share Your Story</h2>
+            <form action="/submit-blog" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
-        <article>
-            <h3>Helping a Stray Find Its Home</h3>
-            <p>
-                "It only took a moment to help a stray dog in need, and the impact was life-changing."
-                <br><br>
-                <a href="community-blog1.html">Read More</a>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
 
-            </p>
-        </article>
-    </div>
+                <label for="blog-title">Blog Title:</label>
+                <input type="text" id="blog-title" name="blog-title" placeholder="Enter a captivating title" required>
 
+                <label for="content">Your Story:</label>
+                <textarea id="content" name="content" rows="8" cols="50" placeholder="Share your story here..." required></textarea>
+
+                <label for="image">Upload an Image (Optional):</label>
+                <input type="file" id="image" name="image" accept="image/*">
+
+                <button type="submit">Submit Your Blog</button>
+            </form>
+        </section>
+        <section id="recent-blogs">
+            <h2>Recent Blogs from Our Community</h2>
+            <div class="blog-list">
+                <div class="blog-grid">
+                    <article>
+                        <h3>How I Found My Furry Friend</h3>
+                        <p>
+                            "Adopting Lucy was the best decision of my life. Here's how it changed both our lives for the better."
+                            <a href="community-blog1.html">Read More</a>
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Helping a Stray Find Its Home</h3>
+                        <p>
+                            "It only took a moment to help a stray dog in need, and the impact was life-changing."
+                            <a href="community-blog2.html">Read More</a>
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
-        <hr>
         <p>"Your voice matters. Share your story and inspire others to join the mission."</p>
     </footer>
 </body>
