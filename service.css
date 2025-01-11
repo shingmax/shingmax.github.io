@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f9fb;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #004a93;
+}
+
+a {
+    color: #0056a4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background: #004a93;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    height: 80px;
+    vertical-align: middle;
+}
+
+/* Navbar */
+.navbar {
+    background: #0056a4;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background: white;
+    color: #0056a4;
+}
+
+/* Services Section */
+.services {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item {
+    margin: 20px 0;
+}
+
+.service-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-content.reverse {
+    flex-direction: row-reverse;
+}
+
+.service-image {
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-video, .service-iframe {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #004a93;
+    color: white;
+    padding: 20px;
+}
