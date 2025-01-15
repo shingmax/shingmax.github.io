@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div class="header">
+    <!-- <div class="header">
         <h1>
             <img src="logo.png" height="100px" width="100px" alt="L.U.C.Y Logo">
             "Loving Unconditional Care for You"
@@ -16,12 +16,26 @@
   
     <div class="navigation">
         <nav>
-            <a href="index.html">Home</a> | 
-            <a href="service.html">Service</a> | 
-            <a href="contact.html">Contact Us</a> | 
+            <a href="index.html">Home</a> 
+            <a href="service.html">Service</a> 
+            <a href="contact.html">Contact Us</a>  
             <a href="aboutus.html">About Us</a>
         </nav>
-    </div>
+    </div> -->
+    <header class="header">
+        <div class="logo-header">
+            <img src="logo.png" alt="L.U.C.Y Logo" class="logo">
+            <h1>"Loving Unconditional Care for You"</h1>
+        </div>
+    </header>
+
+   
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+    </nav>
     
     <div class="main-content">
         <h1>Contact Us</h1>
@@ -109,48 +123,51 @@
             <h2>Adoption Form</h2>
             <p>Please fill out the form below to help us understand your interest in adoption and ensure the best match for both you and the animal.</p>
             <form>
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
                 
-                <label for="reason">Why do you want to adopt?</label><br>
-                <textarea id="reason" name="reason" rows="5" cols="30" placeholder="Your reasons for adoption" required></textarea><br><br>
+                <label for="reason">Why do you want to adopt?</label>
+                <textarea id="reason" name="reason" rows="5" placeholder="Your reasons for adoption" required></textarea>
                 
                 <h3>Background Information</h3>
-                <label for="location">Your Location:</label><br>
-                <input type="text" id="location" name="location" placeholder="City, State" required><br><br>
+                <label for="location">Your Location:</label>
+                <input type="text" id="location" name="location" placeholder="City, State" required>
                 
-                <label for="animals">Do you currently have any animals? If yes, please provide details:</label><br>
-                <textarea id="animals" name="animals" rows="4" cols="30" placeholder="Type, age, etc." required></textarea><br><br>
+                <label for="animals">Do you currently have any animals? If yes, please provide details:</label>
+                <textarea id="animals" name="animals" rows="4" placeholder="Type, age, etc." required></textarea>
                 
-                <label for="phone">Phone Number:</label><br>
-                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required><br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
                 
                 <button type="submit">Submit Adoption Request</button>
             </form>
         </div>
+        
         <hr>
         
         <div class="contact-form">
             <h2>Contact Form</h2>
             <form>
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 
-                <label for="phone">Phone Number:</label><br>
-                <input type="tel" id="phone" name="phone" required><br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
                 
-                <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
                 
-                <label for="location">Your Location:</label><br>
-                <input type="text" id="location" name="location" required><br><br>
+                <label for="location">Your Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter your location" required>
                 
-                <label for="message">Your Message:</label><br>
-                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
                 
                 <button type="submit">Submit</button>
+                <small>We value your privacy and will not share your information.</small>
             </form>
         </div>
+        
     </div>
     <hr>
     <div class="footer">
